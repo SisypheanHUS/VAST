@@ -1,0 +1,9 @@
+Data collection strategy for Raman spectroscopy
+To create your dataset, your data points would be the raw Raman spectra, with the classification labels based on the attributes above. The process would involve these steps:
+Select samples: Gather bottles of different types of colorless spirits (vodka, gin, silver rum, etc.) from various brands and with differing alcohol concentrations.
+Measure spectra: Use a Raman spectrometer to collect the spectral data for each sample. Many studies have been conducted on spirits, so established methodologies exist.
+Non-invasive: Portable Raman systems can measure through the bottle, which saves time and effort.
+In-situ: For higher quality data, measure samples directly in a quartz cuvette.
+Process spectra: Raw spectral data will need to be processed to remove noise, fluorescence background, and other artifacts.
+Create labels: For each processed spectrum, create a data record with the following labels:
+Main Alcohol Type: (e.g., Vodka, Gin, etc
