@@ -6,4 +6,7 @@ Non-invasive: Portable Raman systems can measure through the bottle, which saves
 In-situ: For higher quality data, measure samples directly in a quartz cuvette.
 Process spectra: Raw spectral data will need to be processed to remove noise, fluorescence background, and other artifacts.
 Create labels: For each processed spectrum, create a data record with the following labels:
-Main Alcohol Type: (e.g., Vodka, Gin, etc
+Main Alcohol Type: (e.g., Vodka, Gin, etc)
+Brand: (e.g., Smirnoff, Gordon's, etc.)
+ABV: The percentage of alcohol content.
+Use machine learning: With the labeled dataset of Raman spectra, you can train a machine learning model (such as a Convolutional Neural Network or PCA-based model) to classify new, unknown samples. 
